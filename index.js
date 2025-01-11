@@ -1,5 +1,8 @@
 const puppeteer = require('puppeteer-core');
 
+// wajib menjalankan chrome debug
+// "C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --remote-debugging-address=127.0.0.1
+
 (async () => {
     // Hubungkan Puppeteer ke browser aktif
     const browserURL = 'http://localhost:9222'; // Alamat debugging
