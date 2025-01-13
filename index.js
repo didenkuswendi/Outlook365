@@ -9,5 +9,4 @@ const outlook365 = require('./lib/outlook365.js');
         "ini judul",
         "<strong>Halo, ini email pertama</strong>"
     )
-    if(email){await email.disconnect()}
 })();
